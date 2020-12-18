@@ -1,0 +1,81 @@
+*
+{
+    box-sizing: border-box;
+}
+html
+{
+    height: 100px;
+}
+body
+{
+    margin: 0;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+
+}
+.main img
+{
+    width: 100%;
+    position: fixed;
+}
+.form
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.loginform
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.loginform input,button
+{
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 20px;
+    margin: 20px;
+}
+.loginform button
+{
+    background-color: chartreuse;
+}
+.form>b
+{
+    font-size: 8ch;
+    height: 60px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+
+}
+.form>input:hover
+{
+    transform: translateY(-5px);
+    box-shadow:0 10px 10px white;
+}
+.form>button:hover
+{
+    transform: translateY(-5px);
+    box-shadow:0 10px 10px white;
+}
+.form>input:focus
+{
+   outline: none;
+}
+.form>button:focus
+{
+    outline: none;
+}
